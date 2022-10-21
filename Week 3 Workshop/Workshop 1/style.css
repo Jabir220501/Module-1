@@ -1,0 +1,18 @@
+@charset "utf";
+
+#header{
+background-color: red;
+height: 100px;
+
+}
+
+#content{
+background-color: aquamarine;
+height: 400px;
+}
+
+#footer{
+background-color: azure;
+height: 100px;
+
+}

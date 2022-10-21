@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--Light-Gray);
+}
+/* Container-Total */
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.445) 0px 8px 24px;
+}
+
+.top-cell-info, .left-cell-info, .right-cell-info {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+/* End-Container-Total */
+
+/* Top-Cell */
+.top-cell {
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    height: 200px;
+}
+
+.top-cell-titel {
+    color: var(--cyan);
+    font-size: 19px;
+}
+
+.top-cell-p{
+    color: var(--bright-yellow);
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.top-cell-span {
+    color: rgb(106, 106, 106);
+    font-weight: 400;
+}
+
+.bottom-cell {
+    display: flex;
+}
+/* End-Top-Cell */
+
+
+/* Left-Cell */
+.left-cell {
+    background-color: var(--cyan);
+    width: 325px;
+    height: 250px;
+    text-align: center;
+}
+
+.left-cell-info {
+    color: white;
+    text-align: left;
+}
+
+.price {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.price h3 {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.price p{
+    font-weight: 400;
+    color: rgb(235, 235, 235);
+}
+.left-cell-info-p{
+    padding-bottom: 20px;
+}
+
+.left-cell button {
+    background-color: var(--bright-yellow);
+    width: 250px;
+    height: 48px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.218) 0px 7px 29px 0px;
+    text-align: center;
+    
+}
+
+.left-cell button a {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* End-Left-Cell */
+
+/* Right-Cell */
+.right-cell {
+    background-color: hsl(179, 45%, 56%);
+    width: 325px;
+    height: 250px;
+}
+
+.right-cell-info h2 {
+    color: white;
+}
+
+ul li a {
+    color: rgb(239, 239, 239);
+    font-size: 16px;
+}

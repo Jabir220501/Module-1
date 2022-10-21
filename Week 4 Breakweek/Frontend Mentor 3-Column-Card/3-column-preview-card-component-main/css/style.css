@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.card {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+img {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 40px;
+}
+
+button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    text-decoration:none;
+}
+
+.card-orange {
+    background-color: var(--bright-orange);
+    height: 450px;
+    width: 300px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.card-info {
+    padding: 30px;
+    height: 250px;
+}
+
+.card-cyan {
+    background-color: var(--Dark-cyan);
+    height: 450px;
+    width: 300px;
+}
+
+.card-dark-cyan {
+    background-color: var(--Very-dark-cyan);
+    height: 450px;
+    width: 300px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}

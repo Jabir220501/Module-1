@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root {
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+/* --header-- */
+header {
+    justify-content: space-between;
+    padding: 30px 40px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+header, nav, ul {
+    display: flex;
+    align-items: center;
+}
+
+nav, a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--medium-gray);
+}
+
+.logo-img {
+    padding-right: 60px;
+    height:30px;
+}
+
+li {
+    padding-right: 25px;
+}
+
+.account-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 30px;
+    background-color: white;
+    border: none;
+    border: solid 2px var(--medium-gray);
+}
+
+.account-btn a {
+    font-weight: 700;
+}
+
+/* --end-header-- */
+
+
+/* ---hero-- */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.hero-info h1 {
+    font-size: 75px;
+    color: var(--almost-black);
+}
+
+.hero-info p {
+    padding-top: 50px;
+    color: var(--medium-gray);
+}
+
+.hero-cta{
+    width: 140px;
+    height: 45px;
+    border: none;
+    background-color: var(--almost-black);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+
+}
+
+.hero-cta a{
+    color: white;
+    font-weight: 700;
+}
+
+.hero-sponser img{
+    padding-right: 30px;
+}
+
+.hero-img {
+    width: 420px;
+    padding-right: 175px;
+}
+
+

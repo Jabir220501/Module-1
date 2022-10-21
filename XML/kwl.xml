@@ -1,0 +1,23 @@
+<kwl>
+    <verdiepingen> 
+        <verdieping>
+            <lokalen>
+                <lokaal>
+                    <lokaal naam="w4.01" type="praktijklokaal"></lokaal>
+                    <lokaal naam="w4.02" type="fotostudio"></lokaal>
+                    <lokaal naam="w4.03" type="Game-lab"></lokaal>
+                    <lokaal naam="w4.04" type="docentenlokaal"></lokaal>
+                    <lokaal naam="w4.05" type="spreek kamer"></lokaal>
+                    <lokaal naam="w4.06" type="praktijklokaal"></lokaal>
+                    <lokaal naam="trappenhuis"></lokaal>
+                    <lokaal naam="nooduitgang"></lokaal>
+                    <lokaal naam="lift" type="links"></lokaal>
+                    <lokaal naam="lift" type="recht"></lokaal>
+                    <lokaal naam="wc" type="dames" bezet="1"></lokaal>
+                    <lokaal naam="wc" type="heren" bezet="0"></lokaal>
+                </lokaal>
+            </lokalen>
+        </verdieping>
+    </verdiepingen>
+</kwl>
+
